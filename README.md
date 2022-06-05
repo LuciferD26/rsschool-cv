@@ -1,2 +1,1 @@
-# rsschool-cv
-https://LuciferD26.github.io/rsschool-cv/cv
+https://luciferd26.github.io/rsschool-cv/
