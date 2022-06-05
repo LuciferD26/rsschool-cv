@@ -1,0 +1,76 @@
+body {
+  box-sizing: border-box;
+  background: #f2f2f2;
+  font-family: 'Mukta', sans-serif;
+}
+
+.wrapper {
+  margin: 25px auto;
+  max-width: 960px;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: 5px 10px 20px -1px rgba(0, 0, 0, 0.23);
+  background-color: #fef6ff;
+}
+
+.container {
+  display: flex;
+}
+
+.container-left {
+  width: 40%;
+  margin: 25px 0 0 25px;
+}
+
+.header {
+  margin: 0;
+  padding: 0 30px;
+}
+
+.main {
+  margin: 0;
+  padding: 0 25px;
+  background-color: #bcccff;
+}
+
+.container-right {
+  width: 60%;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid #bcccff;
+  box-shadow: 5px 5px 5px -1px rgba(71, 58, 255, 0.23);
+}
+
+.name {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.work {
+  margin: 0;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.about_me {
+  border-bottom: 1px solid #000;
+  margin-right: 25px;
+}
+
+.code_ex {
+  border-bottom: 1px solid #000;
+  margin-right: 25px;
+}
+
+.code_js {
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 0;
+  margin-left: -100px;
+}
