@@ -53,3 +53,8 @@ form.addEventListener('submit', profileContentEdit);
 
 openModalButton.addEventListener('click', profileContent);
 ```
+***
+## Languages
+* **Russian** - native speaker.
+* **English** - A1+
+* **Polish** - Basics
