@@ -85,24 +85,19 @@
                 function toggleModal() {
                   modal.classList.toggle('modal_open');
                 }
-  
                 function profileContentEdit(event) {
                   event.preventDefault();
                   profileName.textContent = inputName.value;
                   profileProfession.textContent = inputProfession.value;
                   toggleModal();
                 }
-  
                 function profileContent() {
                   inputName.value = profileName.textContent;
                   inputProfession.value = profileProfession.textContent;
                   toggleModal();
                 }
-  
                 closeModalButton.addEventListener('click', toggleModal);
-  
                 form.addEventListener('submit', profileContentEdit);
-  
                 openModalButton.addEventListener('click', profileContent);
             </code>
           </pre>
